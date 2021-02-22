@@ -1,6 +1,6 @@
 # Boat Rental
 
-## Setup
+<!-- ## Setup
 
 * Fork this Repository
 * Clone YOUR fork
@@ -9,11 +9,11 @@
 * Submit a pull request from your repository to the turingschool-examples repository
   * Make sure to put your name in your PR!
 
-# Activity
+# Activity -->
 
 ## Iteration 1
 
-Use TDD to create a `Boat` and a `Renter` class that respond to the following interaction pattern:
+<!-- Use TDD to create a `Boat` and a `Renter` class that respond to the following interaction pattern:
 
 ```ruby
 pry(main)> require './lib/boat'
@@ -51,7 +51,7 @@ pry(main)> renter.name
 
 pry(main)> renter.credit_card_number
 # => "4242424242424242"
-```
+``` -->
 
 ## Iteration 2
 
@@ -60,7 +60,7 @@ Use TDD to create a `Dock` class. It should have the following methods:
 * `rent` - this method takes a `Boat` and a `Renter` as arguments. Calling this method signifies that the `Boat` has been rented by the `Renter`.
 * `rental_log` - this method returns a hash that associates a `Boat` with the `Renter` that rented it.
 
-```ruby
+<!-- ```ruby
 pry(main)> require './lib/dock'
 # => true
 
@@ -77,9 +77,9 @@ pry(main)> dock.name
 # => "The Rowing Dock"
 
 pry(main)> dock.max_rental_time
-# => 3
+# => 3 -->
 
-pry(main)> kayak_1 = Boat.new(:kayak, 20)
+<!-- pry(main)> kayak_1 = Boat.new(:kayak, 20)
 # => #<Boat:0x00007fdeedb3a528...>
 
 pry(main)> kayak_2 = Boat.new(:kayak, 20)    
@@ -107,7 +107,7 @@ pry(main)> dock.rental_log
 #   #<Boat:0x00007fdeedae1860...> => #<Renter:0x00007fdeed0ab828...>,
 #   #<Boat:0x00007fdeedaa8bc8...> => #<Renter:0x00007fdeed8ce5c8...>
 # }
-```
+``` -->
 
 ## Iteration 3
 
